@@ -276,7 +276,7 @@ textarea {
     text-align: center;
   }
 
-  #about p {
+  #about-info {
     text-align: center;
     margin: 30px 40px;
   }
@@ -354,9 +354,12 @@ textarea {
     flex-flow: row wrap;
     margin: 0;
   }
-
-  #about img, #about-info{
-    flex: 1 0 50%;
+  #about figure {
+    width: 40%;
+  }
+  #about-info{
+    flex: 1 0 40%; /*I have to take margins into account*/
+    margin: 15px 30px 15px 0;
   }
 
   .contact-me{
