@@ -329,8 +329,11 @@ textarea {
   font-size: 0.875em;
  }
 
+ /***Layout for tablets***/
+
  @media only screen and (min-width: 768px){
-   header nav ul{
+   
+  header nav ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -343,6 +346,10 @@ textarea {
      text-align: center;
    }
 
+   article h4 {
+     font-size: 1.375em;
+   }
+   
    .project-description{
       margin: 20px 30px;
   }
@@ -362,10 +369,24 @@ textarea {
     margin: 15px 30px 15px 0;
   }
 
-  .contact-me{
+  #wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  #info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-flow: column wrap;
   }
 
+  .contact-me #bubble {
+    width: 40%;
+  }
+  
   footer p{
     font-size: 1em;
   }
