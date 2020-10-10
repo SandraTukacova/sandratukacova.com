@@ -231,13 +231,17 @@ textarea {
     margin: 30px 0;
   }
 
-  article h4 {
+  .small-screens-heading {
     font-family: 'Raleway', sans-serif;
     font-size: 1.25em;
     
   }
 
-  article h5 {
+  .big-screens-heading{
+    display: none;
+  }
+
+  .project-info h5 {
     color: darkgreen;
     font-family: 'Raleway', sans-serif;
     font-size: 1em;
@@ -346,7 +350,7 @@ textarea {
      text-align: center;
    }
 
-   article h4 {
+   .small-screens-heading {
      font-size: 1.375em;
    }
    
@@ -409,34 +413,40 @@ textarea {
 
   /***Portfolio ***/
 
-  .portfolio-items article {
-    flex-flow: column wrap;
-    align-items: flex-end; /*I'd like most of the items to be on the right*/
-  }
-
-  .portfolio-items article h4 { /*This should be on the right side of the project-image*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+  .small-screens-heading{ /*hide the heading for small screens*/
+    display: none;
   }
 
   .project-image{
     width: 49%;
-    align-self: flex-start; /*Only project-image should be on the left*/
   }
 
-  .project-info{ /*This should be under the h4**/
-    display: flex;
+  .project-image a:hover {
+    border: 3px solid darkgreen;
+  }
+
+  .project-info{ 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
-    flex: 1 0 49%;
+    flex: 1 0 40%; /*creates 2 columns*/
+  }
+  .big-screens-heading { /*for desktops and bigger screens*/
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.500em;
+    margin: 20px 0;
+    
+  }
+  .project-info h5 {
+    margin: 20px 0;
+    font-size: 1.125em;
   }
 
   .project-description {
     width: 40%;
+    line-height: 1.625em;
   }
  }
 
