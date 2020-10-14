@@ -427,15 +427,16 @@ textarea {
 
   .project-info{ 
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
+    align-content: flex-start; /*align all the content (even the multi-line p ) to the left*/
+    flex-flow: column wrap; /*main axis = vertical*/
     flex: 1 0 40%; /*creates 2 columns*/
+    justify-content: center; /*center along the main axis*/
+    margin-left: 20px;
   }
   .big-screens-heading { /*for desktops and bigger screens*/
     display: inline;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.500em;
+    font-size: 1.625em;
     margin: 20px 0;
     
   }
@@ -446,7 +447,18 @@ textarea {
 
   .project-description {
     width: 40%;
+    font-size: 1.125em;
     line-height: 1.625em;
+  }
+
+   /*About*/
+   #about figure{
+    width: 49%;
+  }
+
+  #about-info{
+    font-size: 1.25em;
+    line-height: 1.750em;
   }
  }
 
