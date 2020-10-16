@@ -411,6 +411,14 @@ textarea {
     width: 50%;
   }
 
+  header nav ul li{
+    font-size: 1.125em;
+  }
+
+  .main-title {
+    font-size: 3.500em;
+  }
+
   /***Portfolio ***/
 
   .small-screens-heading{ /*hide the heading for small screens*/
@@ -452,6 +460,11 @@ textarea {
   }
 
    /*About*/
+
+   .about-me h3, .contact-me h3{
+    font-size: 2em;
+   }
+
    #about figure{
     width: 49%;
   }
