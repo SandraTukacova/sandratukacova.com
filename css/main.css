@@ -461,11 +461,11 @@ textarea {
 
    /*About*/
 
-   .about-me h3, .contact-me h3{
+  .about-me h3, .contact-me h3{
     font-size: 2em;
    }
 
-   #about figure{
+  #about figure{
     width: 49%;
   }
 
@@ -473,6 +473,34 @@ textarea {
     font-size: 1.25em;
     line-height: 1.750em;
   }
+
+  /*Contact*/
+
+  .contact-me{
+    width: 100%;
+    flex-flow: column wrap;
+  }
+  #wrapper{
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+  #contact p {
+    font-size: 1.125em;
+}
+
+  .contact-me #bubble{
+    width: 49%;
+}
+
+  #bubble img {
+    border-radius: 30%;
+}
+
+  footer{
+    font-size: 1.125em;
+  }
+
  }
 
 /* ==========================================================================
