@@ -98,279 +98,304 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
- /*** BASE STYLES ***/
+/*** BASE STYLES ***/
 
-   html {
-    font-size: 16px;
-  }
+html {
+  font-size: 16px;
+}
 
-  body {
-    font-size: 1em;
-    font-family:'Merriweather', serif;
-    display: flex; 
-	  justify-content: center; 
-    align-items: center;
-    margin: 0; 
-  }
+body {
+  font-size: 1em;
+  font-family: 'Merriweather', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
 
-  .container{ /*generic and mobile styles*/
-    max-width: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
-
-  img{
-    width: 100%;
-  }
-
-  p{
-    font-weight: 200;
-  }
-
-  a{
-    text-decoration: none;
-  }
-  
-/*** HEADER ***/
-
-   header {
-    background-color: #F3EBBA;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    text-align: center;
-    width: 100%;
-  }
-
-  header h1 {
-    font-family: 'Lora', serif;
-    color: #102C00;
-    font-size: 2em;
-  }
-
-  header nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0;
-    width: 100%;
-  }
-
-  header nav ul{
-    margin: 0;
-    padding: 0;
-  }
-
-  header nav ul li {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    list-style: none;
-    padding: 10px 0;
-  }
-
-  header nav ul li a {
-    color: #6D714C;
-  }
-
-  a:hover {
-    color: #102C00;
-  }
-
-/*** HERO AREA ***/
-  .hero-area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url('../img/hero.png') center no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 500px;
-  }
-
-  .main-title {
-    color: snow;
-    font-family: 'Raleway', sans-serif;
-    font-size: 3.125em;
-    font-weight: 700;
-    line-height: 1.2em;
-    margin: 10px 20px;
-  }
-  
-/*** PORTFOLIO ***/
-
-  .portfolio-area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    text-align: center;
-  }
-
-  .portfolio-items {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
-  .portfolio-area h3 {
-    color: #102C00;
-    font-family: 'Raleway', sans-serif;
-    font-size: 2em;
-   
-  }
-  article {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    margin: 30px 0;
-  }
-
-  .small-screens-heading {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.25em;
-    
-  }
-
-  .big-screens-heading{
-    display: none;
-  }
-
-  .project-info h5 {
-    color: darkgreen;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1em;
-  }
-  
-  .project-description{
-    margin: 20px;
-  }
-
-  article a {
-    color: #000;
-    text-decoration: none;
-  }
-
-  figure{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
-
-
-  /*** ABOUT ***/
-  .about-me {
-    background-color: #F3EBBA;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
-
-  .about-me h3, .contact-me h3 {
-    color: #102C00;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.625em;
-    text-align: center;
-  }
-
-  #about-info {
-    text-align: center;
-    margin: 30px 40px;
-  }
-  
-  /*** CONTACT ***/
- .contact-me{
+.container {
+  /*generic and mobile styles*/
+  max-width: 100%;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
- }
+}
 
- #contact {
+img {
+  width: 100%;
+}
+
+p {
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*** HEADER ***/
+
+header {
+  background-color: #F3EBBA;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column wrap; /*main axis = vertical - to dislay flex items underneath each other*/
- 
- }
+  flex-flow: row wrap;
+  text-align: center;
+  width: 100%;
+}
 
- #contact a{
-   color: black;
- }
- #contact a:hover{
+header h1 {
+  font-family: 'Lora', serif;
+  color: #102C00;
+  font-size: 2em;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  list-style: none;
+  padding: 10px 0;
+}
+
+header nav ul li a {
+  color: #6D714C;
+}
+
+a:hover {
+  color: #102C00;
+}
+
+/*** HERO AREA ***/
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../img/hero.png') center no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 500px;
+}
+
+.main-title {
+  color: snow;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.125em;
+  font-weight: 700;
+  line-height: 1.2em;
+  margin: 10px 20px;
+}
+
+.en-homepage .main-title {
+  /*for english website*/
+  margin: 10px 45px;
+}
+
+/*** PORTFOLIO ***/
+
+.portfolio-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.portfolio-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.portfolio-area h3 {
+  color: #102C00;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 30px 0;
+}
+
+.small-screens-heading {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25em;
+
+}
+
+.big-screens-heading {
+  display: none;
+}
+
+.project-info h5 {
+  color: darkgreen;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+}
+
+.project-description {
+  margin: 20px;
+}
+
+article a {
+  color: #000;
+  text-decoration: none;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+/*** ABOUT ***/
+.about-me {
+  background-color: #F3EBBA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-top: 30px;
+}
+
+.about-me h3,
+.contact-me h3 {
+  color: #102C00;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.625em;
+  text-align: center;
+}
+
+#about-info {
+  text-align: center;
+  margin: 30px 40px;
+}
+
+/*** CONTACT ***/
+.contact-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  /*main axis = vertical - to dislay flex items underneath each other*/
+
+}
+
+#contact a {
+  color: black;
+}
+
+#contact a:hover {
   background-color: #868542;
   color: snow;
   text-decoration: underline;
   text-decoration-color: #868542;
- }
+}
 
- #social {
+#social {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
- }
+}
 
 /*** FOOTER ***/
- footer{
+footer {
   background-color: #F3EBBA;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   width: 100%;
- }
+}
 
- footer p{
+footer p {
   font-family: 'Lora', serif;
   font-size: 0.875em;
- }
+}
 
- /***Layout for tablets***/
+/***Layout for tablets***/
 
- @media only screen and (min-width: 768px){
-   
-  header nav ul{
+@media only screen and (min-width: 768px) {
+
+  header nav ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
     width: 80%;
-   }
-
-   .main-title{
-     margin: 30px 20px;
-     text-align: center;
-   }
-
-   .small-screens-heading {
-     font-size: 1.375em;
-   }
-   
-   .project-description{
-      margin: 20px 30px;
   }
 
-  #about{
+  .main-title {
+    margin: 30px 20px;
+    text-align: center;
+  }
+
+  .small-screens-heading {
+    font-size: 1.375em;
+  }
+
+  .project-description {
+    margin: 20px 30px;
+  }
+
+  .en-homepage .project-description {
+    /*for english website*/
+    margin: 10px 15px;
+  }
+
+  #about {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
     margin: 0;
   }
+
   #about figure {
     width: 40%;
   }
-  #about-info{
-    flex: 1 0 40%; /*I have to take margins into account*/
+
+  #about-info {
+    flex: 1 0 40%;
+    /*I have to take margins into account*/
     margin: 15px 30px 15px 0;
+  }
+
+  .en-homepage #about-info {
+    /*for english website*/
+    margin: 10px 25px;
   }
 
   #wrapper {
@@ -390,19 +415,19 @@ textarea {
   .contact-me #bubble {
     width: 40%;
   }
-  
-  footer p{
+
+  footer p {
     font-size: 1em;
   }
- }
+}
 
- @media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
 
-  header{
+  header {
     justify-content: space-between;
   }
 
-  header h1{
+  header h1 {
     margin-left: 40px;
   }
 
@@ -411,7 +436,7 @@ textarea {
     width: 50%;
   }
 
-  header nav ul li{
+  header nav ul li {
     font-size: 1.125em;
   }
 
@@ -421,11 +446,12 @@ textarea {
 
   /***Portfolio ***/
 
-  .small-screens-heading{ /*hide the heading for small screens*/
+  .small-screens-heading {
+    /*hide the heading for small screens*/
     display: none;
   }
 
-  .project-image{
+  .project-image {
     width: 49%;
   }
 
@@ -433,21 +459,28 @@ textarea {
     border: 3px solid darkgreen;
   }
 
-  .project-info{ 
+  .project-info {
     display: flex;
-    align-content: flex-start; /*align all the content (even the multi-line p ) to the left*/
-    flex-flow: column wrap; /*main axis = vertical*/
-    flex: 1 0 40%; /*creates 2 columns*/
-    justify-content: center; /*center along the main axis*/
+    align-content: flex-start;
+    /*align all the content (even the multi-line p) to the left*/
+    flex-flow: column wrap;
+    /*main axis = vertical*/
+    flex: 1 0 40%;
+    /*creates 2 columns*/
+    justify-content: center;
+    /*center along the main axis*/
     margin-left: 20px;
   }
-  .big-screens-heading { /*for desktops and bigger screens*/
+
+  .big-screens-heading {
+    /*for desktops and bigger screens*/
     display: inline;
     font-family: 'Raleway', sans-serif;
     font-size: 1.625em;
     margin: 20px 0;
-    
+
   }
+
   .project-info h5 {
     margin: 20px 0;
     font-size: 1.125em;
@@ -459,49 +492,51 @@ textarea {
     line-height: 1.625em;
   }
 
-   /*About*/
+  /*About*/
 
-  .about-me h3, .contact-me h3{
+  .about-me h3,
+  .contact-me h3 {
     font-size: 2em;
-   }
+  }
 
-  #about figure{
+  #about figure {
     width: 49%;
   }
 
-  #about-info{
+  #about-info {
     font-size: 1.25em;
     line-height: 1.750em;
   }
 
   /*Contact*/
 
-  .contact-me{
+  .contact-me {
     width: 100%;
     flex-flow: column wrap;
   }
-  #wrapper{
+
+  #wrapper {
     width: 90%;
     justify-content: space-evenly;
-}
+  }
 
   #contact p {
     font-size: 1.125em;
-}
+  }
 
-  .contact-me #bubble{
+  .contact-me #bubble {
     width: 49%;
-}
+  }
 
   #bubble img {
     border-radius: 30%;
-}
+  }
 
-  footer{
+  footer {
     font-size: 1.125em;
   }
 
- }
+}
 
 /* ==========================================================================
    Helper classes
@@ -597,9 +632,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -610,6 +645,7 @@ textarea {
    ========================================================================== */
 
 @media print {
+
   *,
   *:before,
   *:after {
@@ -619,16 +655,20 @@ textarea {
     box-shadow: none !important;
     text-shadow: none !important;
   }
+
   a,
   a:visited {
     text-decoration: underline;
   }
+
   a[href]:after {
-    content: " (" attr(href) ")";
+    content: " ("attr(href) ")";
   }
+
   abbr[title]:after {
-    content: " (" attr(title) ")";
+    content: " ("attr(title) ")";
   }
+
   /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
@@ -637,14 +677,17 @@ textarea {
   a[href^="javascript:"]:after {
     content: "";
   }
+
   pre {
     white-space: pre-wrap !important;
   }
+
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
+
   /*
      * Printing Tables:
      * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
@@ -652,19 +695,21 @@ textarea {
   thead {
     display: table-header-group;
   }
+
   tr,
   img {
     page-break-inside: avoid;
   }
+
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3;
   }
+
   h2,
   h3 {
     page-break-after: avoid;
   }
 }
-
